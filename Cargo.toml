@@ -1,0 +1,13 @@
+[package]
+name = "riemann-visualizer"
+version = "0.1.0"
+authors = [ "Diego Valdez" ]
+edition = "2021"
+description = "A tool with several options to visualize riemann summs"
+
+[dependencies]
+eframe = "0.22.0"
+egui = "0.22.0"
+egui-plotter = "0.3.0"
+meval = "0.2.0"
+plotters = "0.3.5"
